@@ -30,7 +30,7 @@ dependencies {
 
     include(modApi("com.mememan:nexus-fabric-${minecraft_version}:${nexus_version}"))
 
-    include(implementation("team.unnamed:mocha:${mocha_version}"))
+    include(api("team.unnamed:mocha:${mocha_version}"))
     include(implementation("org.javassist:javassist:${javassist_version}")) // We need this for the compiled jar, had to debug a remote prod instance just to discover ts
 
     // Dependencies (Optional)
