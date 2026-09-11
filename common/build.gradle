@@ -26,8 +26,8 @@ dependencies {
     compileOnly group: "org.ow2.asm", name: "asm-tree", version: 9.6
 
     // Dependencies (Mandatory)
-    implementation group: "com.mememan", name: "nexus-common-1.20.1", version: nexus_version
-    implementation group: "team.unnamed", name: "mocha", version: mocha_version
+    api group: "com.mememan", name: "nexus-common-1.20.1", version: nexus_version
+    api group: "team.unnamed", name: "mocha", version: mocha_version
 }
 
 configurations {
